@@ -10,7 +10,7 @@
 
 void clear_screen()
 {
-#ifdef WINDOWS
+#ifdef WIN32
     std:system("cls");
 #else
     std:system ("clear");
